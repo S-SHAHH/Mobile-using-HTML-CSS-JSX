@@ -1,0 +1,237 @@
+
+body{
+    display:flex;
+    width:100%;
+    height:100%; 
+    justify-content:center;
+  background-color: rgba( 100,140,200,0.3);  
+}
+
+#mbtn{
+  width:50px;
+  height:50px;
+  background-color:ghostwhite;
+  border: 1px solid black;
+  border-radius:50%;
+  position:relative;
+  bottom: 70px;
+  left: 40%;
+}
+#mbtn:hover{
+  background-color: grey;
+  cursor:pointer;
+}
+
+
+
+.dVc {
+/*   align-content: start; */
+  width: 300px;
+  height: 524px;
+  background-color: black;
+  border: 1px solid grey;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.grid_Scrn{
+  width:100%;
+  top:10px;
+  height:75px;
+  position:relative;
+  display:flex;
+  direction:column;
+  align-items:start;
+  background-color: white;
+  padding-top:50px;
+  justify-content: space-around;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  }
+
+#img1,#img2,#img3,#img4{
+    position:relative;
+    top:0px;
+    padding: 5px 5px;
+    width:50px;
+    height:50px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color:black;
+    cursor:pointer;
+    
+
+}
+
+
+#img1:hover{
+  
+  border: 2px solid skyblue;
+ 
+}
+#img2:hover{
+  
+  border: 2px solid skyblue;
+ 
+}
+#img3:hover{
+  
+  border: 2px solid skyblue;
+ 
+}
+#img4:hover{
+  
+  border: 2px solid skyblue;
+    background-image: url("https://media.istockphoto.com/id/1387125463/vector/billiard-background-with-realistic-cue-hit-gaming-balls-billiard-room-with-green-table-and.jpg?s=2048x2048&w=is&k=20&c=ni3v6GYwLHcTKVo2Lh7RJgYtcfdmHfsCme0Yz32xv84=
+"
+  );
+}
+
+#img5,#img6{
+  
+  width:125px;
+  height:65px;
+  border-radius: 10px;
+  margin:0px 10px;
+   
+  background-color:black;
+}
+
+
+#img1{
+   background-image: url("https://cdn.pixabay.com/photo/2019/09/04/20/34/field-4452538_1280.jpg"
+    );
+  
+}
+  #img2{
+    
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png" );
+    
+}
+#img3{
+  background-image: url("https://cdn.pixabay.com/photo/2024/09/14/08/45/ai-generated-9046604_1280.jpg");
+}
+<>
+ 
+ .dot{
+  position: relative;
+  left:10px;
+  top: 10px;
+  background-color: yellow;
+  width:10px;
+  height:10px;
+  border:1px solid orange;
+  border-radius:50%;
+  
+}
+/* //////////////////////Mid////////////////////////// */
+.wndw2{
+  position: relative;
+  top:0px;
+  width:300px;
+  left: -1px;
+  height:230px;
+  background-color: black;
+/*   background-image: url(
+    "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/GTYSdDW/videoblocks-computer-hacking-in-process-cyber-security-concept_h-l3zbu4xb__0a7b0b12279471d24693c0d1a1aa7c82__P360.mp4"
+  ); */
+}
+/* //////////////Footer Below////////////////////////////////////// */
+
+.footr_1{
+  position:relative;
+  display:flex;
+  direction: row;
+  bottom:0%;
+  width:302px;
+  height:135px;
+  left:-1px;
+  background-color:white;
+  border-bottom-left-radius:33px;
+  border-bottom-right-radius:33px;
+  justify-content: space-around;
+  
+    
+}
+
+
+.ft2,.ft3,.ft4,.ft5{
+ postion:relative; 
+  width:60px;
+  height:40px;
+  top: 10px;
+
+  background-color:black;
+  border-radius:20%;
+  opacity: 0.5;
+/*   border:1px solid; */
+
+}
+
+.ft2:hover,.ft3:hover,.ft4:hover,.ft5:hover{
+  
+  width: 80px;
+  height:60px;
+  opacity:0.9;
+  cursor:pointer;
+
+}
+  
+  /*   background-color: skyblue;
+   */
+
+}
+
+/* iframe{
+
+  border:none;
+}
+ */
+/* #img4{
+
+    }
+ */
+/* 
+#btn{
+  postion:absolute;
+  bottom:0%;
+  background-color: grey;
+  width: 20px;
+  height:20px;
+  
+} */
+//////////////////////////////////////////////////////////////////////////////////////
+carousel{
+  position:absolute;
+  bottom:0%;
+  display: flex;
+  direction:row;
+  justify-content:space-between;
+/*   align-items:strech; */
+  background-color:black;
+  width:300px;
+  
+/*   height:50px; */
+}
+
+.imglist{
+  border:1px solid;
+  
+}
+#l_img2{
+  padding-left: 2px;
+  padding-right:2px;
+}
+#l_img2:hover,
+#l_img3:hover{
+  height:51px;
+}
+.left_btn,.right_btn{
+  
+  cursor:pionter;
+  
+}
+
+
+///////////////////////////////////////////
